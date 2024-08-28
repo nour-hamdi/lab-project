@@ -96,8 +96,45 @@ h1 {
 /* Result section styling */
 #result {
     text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for result section */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#result h2 {
+    font-size: 24px;
+    color: #354f52; /* Dark grey color for result heading */
+    margin-bottom: 20px;
+}
+
+#result p {
+    font-size: 18px;
+    color: #4a4a4a; /* Dark grey color for result text */
+}
+
+#result ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#result ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #cad2c5;
+}
+
+#result ul li strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
 }
 
 .hidden {
     display: none;
-}
+}   
