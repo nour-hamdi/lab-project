@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Tech Entrepreneurship Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Climate Tech Entrepreneurship Quiz</h1>
+        <div id="quiz">
+            <!-- Climate Tech Innovations Section -->
+            <div class="section" id="section-1" data-name="Climate Tech Innovations">
+                <h2>Climate Tech Innovations</h2>
+                <div class="question" data-correct="Carbon capture">
+                    <p>Which technology is most effective in reducing carbon emissions from industrial processes?</p>
+                    <button class="answer-btn" data-answer="Carbon capture">Carbon capture</button>
+                    <button class="answer-btn" data-answer="Solar power">Solar power</button>
+                    <button class="answer-btn" data-answer="Electric vehicles">Electric vehicles</button>
+                </div>
+                <div class="question" data-correct="Optimizes energy distribution and reduces losses">
+                    <p>What is a key benefit of using smart grids in renewable energy systems?</p>
+                    <button class="answer-btn" data-answer="Reduces electricity consumption">Reduces electricity consumption</button>
+                    <button class="answer-btn" data-answer="Enhances energy storage capacity">Enhances energy storage capacity</button>
+                    <button class="answer-btn" data-answer="Optimizes energy distribution and reduces losses">Optimizes energy distribution and reduces losses</button>
+                </div>
+            </div>
+
+            <!-- Sustainable Business Models Section -->
+            <div class="section" id="section-2" data-name="Sustainable Business Models">
+                <h2>Sustainable Business Models</h2>
+                <div class="question" data-correct="Reduces waste">
+                    <p>What is the primary advantage of a circular economy model?</p>
+                    <button class="answer-btn" data-answer="Reduces waste">Reduces waste</button>
+                    <button class="answer-btn" data-answer="Decreases production speed">Decreases production speed</button>
+                    <button class="answer-btn" data-answer="Lowers product quality">Lowers product quality</button>
+                </div>
+                <div class="question" data-correct="It is legally required to balance profit with social and environmental performance">
+                    <p>How does a B Corporation differ from a traditional for-profit company?</p>
+                    <button class="answer-btn" data-answer="It is legally required to balance profit with social and environmental performance">It is legally required to balance profit with social and environmental performance</button>
+                    <button class="answer-btn" data-answer="It is exempt from paying taxes">It is exempt from paying taxes</button>
+                    <button class="answer-btn" data-answer="It operates only in non-profit sectors">It operates only in non-profit sectors</button>
+                </div>
+            </div>
+
+            <!-- Market Trends and Opportunities Section -->
+            <div class="section" id="section-3" data-name="Market Trends and Opportunities">
+                <h2>Market Trends and Opportunities</h2>
+                <div class="question" data-correct="Renewable energy storage solutions">
+                    <p>Which sector is expected to see the highest growth in climate tech investments over the next decade?</p>
+                    <button class="answer-btn" data-answer="Electric vehicles">Electric vehicles</button>
+                    <button class="answer-btn" data-answer="Green building materials">Green building materials</button>
+                    <button class="answer-btn" data-answer="Renewable energy storage solutions">Renewable energy storage solutions</button>
+                </div>
+                <div class="question" data-correct="Bioengineered food alternatives">
+                    <p>What emerging trend is gaining traction in the climate tech market?</p>
+                    <button class="answer-btn" data-answer="Bioengineered food alternatives">Bioengineered food alternatives</button>
+                    <button class="answer-btn" data-answer="Fossil fuel-based energy production">Fossil fuel-based energy production</button>
+                    <button class="answer-btn" data-answer="Traditional water filtration systems">Traditional water filtration systems</button>
+                </div>
+            </div>
+
+            <!-- Regulatory Environment Section -->
+            <div class="section" id="section-4" data-name="Regulatory Environment">
+                <h2>Regulatory Environment</h2>
+                <div class="question" data-correct="They provide financial incentives for reducing carbon emissions">
+                    <p>What role do carbon credits play in supporting climate tech startups?</p>
+                    <button class="answer-btn" data-answer="They provide financial incentives for reducing carbon emissions">They provide financial incentives for reducing carbon emissions</button>
+                    <button class="answer-btn" data-answer="They increase operational costs for businesses">They increase operational costs for businesses</button>
+                    <button class="answer-btn" data-answer="They restrict market access for startups">They restrict market access for startups</button>
+                </div>
+                <div class="question" data-correct="To reduce global carbon emissions and limit temperature rise">
+                    <p>What is a primary objective of the Paris Agreement?</p>
+                    <button class="answer-btn" data-answer="To reduce global carbon emissions and limit temperature rise">To reduce global carbon emissions and limit temperature rise</button>
+                    <button class="answer-btn" data-answer="To increase global industrial production">To increase global industrial production</button>
+                    <button class="answer-btn" data-answer="To promote fossil fuel consumption">To promote fossil fuel consumption</button>
+                </div>
+            </div>
+
+            <!-- Challenges and Solutions Section -->
+            <div class="section" id="section-5" data-name="Challenges and Solutions">
+                <h2>Challenges and Solutions</h2>
+                <div class="question" data-correct="Seek venture capital or impact investment">
+                    <p>How should a climate tech startup address high initial development costs?</p>
+                    <button class="answer-btn" data-answer="Seek venture capital or impact investment">Seek venture capital or impact investment</button>
+                    <button class="answer-btn" data-answer="Reduce product quality to cut costs">Reduce product quality to cut costs</button>
+                    <button class="answer-btn" data-answer="Avoid regulatory compliance to save money">Avoid regulatory compliance to save money</button>
+                </div>
+                <div class="question" data-correct="Limited access to traditional funding sources">
+                    <p>What is a common challenge faced by climate tech entrepreneurs when scaling their solutions?</p>
+                    <button class="answer-btn" data-answer="Difficulty in finding skilled talent">Difficulty in finding skilled talent</button>
+                    <button class="answer-btn" data-answer="Lack of interest from consumers">Lack of interest from consumers</button>
+                    <button class="answer-btn" data-answer="Limited access to traditional funding sources">Limited access to traditional funding sources</button>
+                </div>
+            </div>
+
+            <button id="next-btn">Next</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Quiz Complete!</h2>
+            <p id="result-text">Your results will be displayed here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
